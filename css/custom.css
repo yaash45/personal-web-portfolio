@@ -1,2 +1,14 @@
+/*The skills lists element*/
+ul.skills-list{
+    color: black;
+}
 
-/** ADD YOUR AWESOME CODES HERE **/
+/*Animating individual list element*/
+li.list-item:hover{
+    font-size: larger;
+}
+
+/*The skills summary element*/
+p.skills-summary{
+    color: black;
+}
