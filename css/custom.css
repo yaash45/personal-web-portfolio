@@ -12,3 +12,8 @@ li.list-item:hover{
 p.skills-summary{
     color: black;
 }
+
+#social-media-links{
+    margin-top: 35px;
+    max-width: 300px;
+}
