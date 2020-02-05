@@ -3,16 +3,11 @@ ul.skills-list{
     color: black;
 }
 
-/*Animating individual list element*/
-li.list-item:hover{
-    font-size: larger;
-}
-
-/*The skills summary element*/
-p.skills-summary{
-    color: black;
-}
-
 #social-media-links{
     margin-top: 35px;
+}
+
+hr{
+    margin-left: 18px;
+    margin-right: 18px;
 }

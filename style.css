@@ -7,6 +7,7 @@
 -------------------------------------------------------------------*/
 
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 
 /*------------------------------------------------------------------
     IMPORT FILES
@@ -26,7 +27,7 @@
 body {
     color: #999999;
     font-size: 14px;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Muli', sans-serif;
     line-height: 1.80857;
 }
 
@@ -304,7 +305,7 @@ a img.aligncenter {
 -------------------------------------------------------------------*/
 
 .navbar-dark{
-	
+	font-family: 'Roboto Mono', monospace;
 }
 
 .navbar-dark .navbar-nav .nav-link{
@@ -344,6 +345,7 @@ a img.aligncenter {
 -------------------------------------------------------------------*/
 
 .main-banner{
+    font-family: 'Roboto Mono', monospace;
 	height: 100%;
 	position: relative;
 }
@@ -486,11 +488,11 @@ xclip
 }
 
 .section.wb {
-    background-color: #ffffff;
+    background-color: rgb(255,255,255);
 }
 
 .section.lb {
-    background-color: #f2f3f5;
+    background-color: #3b4f60;
 }
 
 .section.db {
@@ -536,13 +538,15 @@ xclip
 }
 
 .section-title {
+    font-family: 'Roboto Mono', monospace;
     display: block;
     position: relative;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 }
 
 .section-title p {
-    color: #999;
+    color: rgb(195,174,121);
+    font-family: 'Muli', sans-serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 33px;
@@ -550,8 +554,9 @@ xclip
 }
 
 .section-title h3 {
+    color: rgb(195,174,121);
     font-size: 38px;
-    font-weight: 500;
+    font-weight: 1000;
     line-height: 62px;
     margin: 0 0 25px;
     padding: 0;
@@ -652,10 +657,45 @@ xclip
 
 
 
-.services-inner-box{
+.skills-inner-box{
+    border-radius: 15px;
+	padding: 25px;
+	background:#3b4f60;
+    margin-bottom: 30px;
+    border: 3px solid rgb(195,174,121);
+}
+.ser-icon{
+	width: 90px;
+	height: 90px;
+	text-align: center;
+    line-height: 90px;
+    color: rgb(195,174,121);
+    
+}
+.ser-icon i{
+	font-size: 50px;
+	color: #333333;
+}
+.skills-inner-box h2{
+    margin:10px;
+	font-size: 20px;
+    font-weight: 1000;
+    color: rgb(195,174,121);
+}
+
+.skills-inner-box ul li{
+    color: rgb(195,174,121);
+    margin-left: 10px;
+}
+
+
+.employment-inner-box{
+    border-radius: 15px;
+    /*box-shadow: 5px 6px rgb(195,174,121);*/
 	padding: 15px;
 	background: #ffffff;
-	margin-bottom: 30px;
+    margin-bottom: 30px;
+    border: 3px solid rgb(195,174,121);
 }
 .ser-icon{
 	width: 90px;
@@ -667,11 +707,37 @@ xclip
 	font-size: 50px;
 	color: #333333;
 }
-.services-inner-box h2{
-	font-size: 22px;
-	font-weight: 600;
+.employment-inner-box h2{
+    margin-top: 20px;
+    margin-left: 18px;
+	font-size: 30px;
+    font-weight: 1000;
+    color: rgb(195,174,121);
 }
 
+.employment-inner-box h4{
+    margin-left: 18px;
+    font-size: 20px;
+    font-weight: 600;
+    color:#3b4f60;
+}
+
+.employment-inner-box h5{
+    margin-left: 18px;
+    font-size: 16px;
+    font-weight: 300;
+    color:#3b4f60;
+}
+
+.employment-inner-box ul{
+    margin-left: 10px;
+}
+
+.employment-inner-box ul li{
+    color:#3b4f60;
+    margin: 10px;
+    list-style-type: disc;
+}
 
 /*------------------------------------------------------------------
     PORTFOLIO
@@ -821,23 +887,17 @@ xclip
     opacity: 0.5;
 }
 
-.desc h3 i {
-    color: #cccccc;
-    font-size: 37px;
-    vertical-align: middle;
-    margin-right: 12px;
-}
-
 .desc {
-    padding: 30px;
+    padding:10px;
     position: relative;
     background: #000;
-    border: 1px solid #111111;
 }
 
 .testi-meta {
+    padding:10px;
     display: block;
     margin-top: 20px;
+    background: #f2f3f5;
 }
 
 .testimonial h4 {
