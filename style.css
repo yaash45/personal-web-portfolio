@@ -558,7 +558,7 @@ xclip
 
 .section-title h3 {
     color: rgb(195,174,121);
-    font-size: 48px;
+    font-size: 50px;
     font-family: 'Almarai', sans-serif;
     font-weight: 800;
     line-height: 62px;
@@ -666,6 +666,14 @@ xclip
     margin-bottom: 30px;
     border: 3px solid rgb(195,174,121);
 }
+
+.skills-inner-box hr{
+    margin-top:5px;
+    margin-bottom:10px;
+    margin-left:10px;
+    border-color: rgb(195,174,121);
+}
+
 .ser-icon{
 	width: 90px;
 	height: 90px;
@@ -679,14 +687,18 @@ xclip
 	color: #333333;
 }
 .skills-inner-box h2{
-    margin:10px;
-	font-size: 20px;
-    font-weight: 1000;
+    margin-left:10px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 500;
+	font-size: 25px;
     color: rgb(195,174,121);
 }
 
 .skills-inner-box ul li{
     color: rgb(195,174,121);
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+	font-size: 17px;
     margin-left: 10px;
 }
 
@@ -698,6 +710,7 @@ xclip
     margin-bottom: 30px;
     border: 3px solid rgb(195,174,121);
 }
+
 .ser-icon{
 	width: 90px;
 	height: 90px;
@@ -711,19 +724,23 @@ xclip
 .employment-inner-box h2{
     margin-top: 20px;
     margin-left: 18px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 500;
 	font-size: 30px;
     color: rgb(195,174,121);
 }
 
 .employment-inner-box h4{
     margin-left: 18px;
+    font-family: 'Heebo', sans-serif;
     font-size: 20px;
+    font-weight: 500;
     color:#3b4f60;
 }
 
 .employment-inner-box h5{
     margin-left: 18px;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 300;
     color:#3b4f60;
 }
@@ -733,6 +750,9 @@ xclip
 }
 
 .employment-inner-box ul li{
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
     color:#3b4f60;
     margin: 10px;
     list-style-type: disc;
