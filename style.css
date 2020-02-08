@@ -553,6 +553,10 @@ xclip
 
 .section-title p {
     line-height: 33px;
+    color: rgb(195,174,121);
+    font-size: 18px;
+    font-family: 'Almarai', sans-serif;
+    font-weight: 800;
     margin: 0;
 }
 
