@@ -9,7 +9,11 @@
 }
 
 .message-box p{
-    margin-bottom: 1cm;
+    margin-bottom: 50px;
+    color:#3b4f60;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
 }
 
 #social-media-links{

@@ -7,7 +7,8 @@
 -------------------------------------------------------------------*/
 
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,500,700');
-@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Almarai:400,800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Heebo:400,500&display=swap');
 
 /*------------------------------------------------------------------
     IMPORT FILES
@@ -26,8 +27,9 @@
 
 body {
     color: #999999;
-    font-size: 14px;
-    font-family: 'Muli', sans-serif;
+    font-size: 15px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
     line-height: 1.80857;
 }
 
@@ -305,7 +307,8 @@ a img.aligncenter {
 -------------------------------------------------------------------*/
 
 .navbar-dark{
-	font-family: 'Roboto Mono', monospace;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 500;
 }
 
 .navbar-dark .navbar-nav .nav-link{
@@ -345,7 +348,7 @@ a img.aligncenter {
 -------------------------------------------------------------------*/
 
 .main-banner{
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Almarai', sans-serif;
 	height: 100%;
 	position: relative;
 }
@@ -380,11 +383,16 @@ a img.aligncenter {
 	text-transform: uppercase;
 }
 .heading p{
-	font-size: 18px;
+    font-family:'Almarai', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
 	padding: 20px 0px;
 }
 
 .heading h3{
+    font-family:'Almarai', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
 	color: ffffff;
 }
 
@@ -538,25 +546,21 @@ xclip
 }
 
 .section-title {
-    font-family: 'Roboto Mono', monospace;
     display: block;
     position: relative;
     margin-bottom: 30px;
 }
 
 .section-title p {
-    color: rgb(195,174,121);
-    font-family: 'Muli', sans-serif;
-    font-weight: 400;
-    font-size: 18px;
     line-height: 33px;
     margin: 0;
 }
 
 .section-title h3 {
     color: rgb(195,174,121);
-    font-size: 38px;
-    font-weight: 1000;
+    font-size: 48px;
+    font-family: 'Almarai', sans-serif;
+    font-weight: 800;
     line-height: 62px;
     margin: 0 0 25px;
     padding: 0;
@@ -689,7 +693,6 @@ xclip
 
 .employment-inner-box{
     border-radius: 15px;
-    /*box-shadow: 5px 6px rgb(195,174,121);*/
 	padding: 15px;
 	background: #ffffff;
     margin-bottom: 30px;
@@ -709,14 +712,12 @@ xclip
     margin-top: 20px;
     margin-left: 18px;
 	font-size: 30px;
-    font-weight: 1000;
     color: rgb(195,174,121);
 }
 
 .employment-inner-box h4{
     margin-left: 18px;
     font-size: 20px;
-    font-weight: 600;
     color:#3b4f60;
 }
 
