@@ -1,6 +1,15 @@
-/*The skills lists element*/
-ul.skills-list{
-    color: black;
+.message-box span{
+    border: 1px solid rgb(195,174,121);
+    border-radius: 5pt;
+    padding-top: 9pt;
+    padding-bottom: 9pt;
+    padding-right: 14pt;
+    padding-left: 14pt;
+    color: rgb(195,174,121);
+}
+
+.message-box p{
+    margin-bottom: 1cm;
 }
 
 #social-media-links{

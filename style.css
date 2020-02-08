@@ -637,8 +637,6 @@ xclip
 
 .right-box-pro{
 	position: relative;
-	-webkit-box-shadow: 0px 0px 30px -4px rgba(0, 0, 0, 0.3);
-	box-shadow: 0px 0px 30px -4px rgba(0, 0, 0, 0.3);
 }
 .right-box-pro img{
 	position: relative;
@@ -650,8 +648,8 @@ xclip
     width: 100%;
     height: 100%;
     position: absolute;
-    bottom: -20px;
-    right: -20px;
+    bottom: -5px;
+    right: -6px;
     z-index: 0;
 }
 
