@@ -7,7 +7,8 @@
 -------------------------------------------------------------------*/
 
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,500,700');
-@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Almarai:400,800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Heebo:400,500&display=swap');
 
 /*------------------------------------------------------------------
     IMPORT FILES
@@ -26,8 +27,9 @@
 
 body {
     color: #999999;
-    font-size: 14px;
-    font-family: 'Muli', sans-serif;
+    font-size: 15px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
     line-height: 1.80857;
 }
 
@@ -305,7 +307,8 @@ a img.aligncenter {
 -------------------------------------------------------------------*/
 
 .navbar-dark{
-	font-family: 'Roboto Mono', monospace;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 500;
 }
 
 .navbar-dark .navbar-nav .nav-link{
@@ -345,7 +348,7 @@ a img.aligncenter {
 -------------------------------------------------------------------*/
 
 .main-banner{
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Almarai', sans-serif;
 	height: 100%;
 	position: relative;
 }
@@ -380,11 +383,16 @@ a img.aligncenter {
 	text-transform: uppercase;
 }
 .heading p{
-	font-size: 18px;
+    font-family:'Almarai', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
 	padding: 20px 0px;
 }
 
 .heading h3{
+    font-family:'Almarai', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
 	color: ffffff;
 }
 
@@ -538,25 +546,25 @@ xclip
 }
 
 .section-title {
-    font-family: 'Roboto Mono', monospace;
     display: block;
     position: relative;
     margin-bottom: 30px;
 }
 
 .section-title p {
-    color: rgb(195,174,121);
-    font-family: 'Muli', sans-serif;
-    font-weight: 400;
-    font-size: 18px;
     line-height: 33px;
+    color: rgb(195,174,121);
+    font-size: 18px;
+    font-family: 'Almarai', sans-serif;
+    font-weight: 800;
     margin: 0;
 }
 
 .section-title h3 {
     color: rgb(195,174,121);
-    font-size: 38px;
-    font-weight: 1000;
+    font-size: 50px;
+    font-family: 'Almarai', sans-serif;
+    font-weight: 800;
     line-height: 62px;
     margin: 0 0 25px;
     padding: 0;
@@ -662,6 +670,14 @@ xclip
     margin-bottom: 30px;
     border: 3px solid rgb(195,174,121);
 }
+
+.skills-inner-box hr{
+    margin-top:5px;
+    margin-bottom:10px;
+    margin-left:10px;
+    border-color: rgb(195,174,121);
+}
+
 .ser-icon{
 	width: 90px;
 	height: 90px;
@@ -675,26 +691,30 @@ xclip
 	color: #333333;
 }
 .skills-inner-box h2{
-    margin:10px;
-	font-size: 20px;
-    font-weight: 1000;
+    margin-left:10px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 500;
+	font-size: 25px;
     color: rgb(195,174,121);
 }
 
 .skills-inner-box ul li{
     color: rgb(195,174,121);
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+	font-size: 17px;
     margin-left: 10px;
 }
 
 
 .employment-inner-box{
     border-radius: 15px;
-    /*box-shadow: 5px 6px rgb(195,174,121);*/
 	padding: 15px;
 	background: #ffffff;
     margin-bottom: 30px;
     border: 3px solid rgb(195,174,121);
 }
+
 .ser-icon{
 	width: 90px;
 	height: 90px;
@@ -708,21 +728,23 @@ xclip
 .employment-inner-box h2{
     margin-top: 20px;
     margin-left: 18px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 500;
 	font-size: 30px;
-    font-weight: 1000;
     color: rgb(195,174,121);
 }
 
 .employment-inner-box h4{
     margin-left: 18px;
+    font-family: 'Heebo', sans-serif;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 500;
     color:#3b4f60;
 }
 
 .employment-inner-box h5{
     margin-left: 18px;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 300;
     color:#3b4f60;
 }
@@ -732,6 +754,9 @@ xclip
 }
 
 .employment-inner-box ul li{
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
     color:#3b4f60;
     margin: 10px;
     list-style-type: disc;
@@ -2099,18 +2124,19 @@ select.mobile-device {
 }
 
 .contact_form {
-    border: 1px solid #ededed;
-    box-shadow: 0 5px 14px rgba(0, 0, 0, 0.1);
-    background-color: #f2f3f5;
+    border: 5px solid rgb(195,174,121);
+    border-radius: 15px;
+    /* box-shadow: 0 5px 14px rgba(0, 0, 0, 0.1); */
+    background-color: #3b4f60;
     padding: 40px 30px;
 }
 
 .contact_form .form-control {
-    background-color: #333333;
+    background-color: #ffffff;
     margin-bottom: 30px;
-    border: 1px solid #ebebeb;
+    border: 2px solid rgb(195,174,121);
     box-sizing: border-box;
-    color: #bcbcbc;
+    color: #3b4f60;
     font-size: 16px;
     outline: 0 none;
     padding: 10px 25px;
@@ -2118,7 +2144,7 @@ select.mobile-device {
     resize: none;
     box-shadow: none !important;
     width: 100%;
-	border-radius: 0px;
+	border-radius: 5px;
 }
 
 .contact_form textarea {
@@ -2140,16 +2166,8 @@ select.mobile-device {
     color: #bcbcbc;
 }
 
-#contact {
-    background: url(images/bg.png) no-repeat center center #333333;
-}
-
-
-#contact .section-title p{
-	color: #ffffff;
-}
-
 .contact_form textarea.form-control{
+    border-radius: 5px;
 	min-height: 225px;
 }
 
