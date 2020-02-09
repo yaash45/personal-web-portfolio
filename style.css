@@ -5,8 +5,6 @@
 /*------------------------------------------------------------------
     IMPORT FONTS
 -------------------------------------------------------------------*/
-
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,500,700');
 @import url('https://fonts.googleapis.com/css?family=Almarai:400,800&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Heebo:400,500&display=swap');
 
@@ -377,14 +375,14 @@ a img.aligncenter {
 	z-index: 1;
 }
 .heading h1{
+    margin-bottom: 1cm;
 	color: #ffffff;
 	font-weight: 700;
-	font-size: 62px;
-	text-transform: uppercase;
+	font-size: 80px;
 }
 .heading p{
     font-family:'Almarai', sans-serif;
-    font-size: 22px;
+    font-size: 27px;
     font-weight: 400;
 	padding: 20px 0px;
 }
@@ -427,11 +425,9 @@ xclip
   display: inline-block;
   padding: .2em 0;
   color: #ffffff;
-  font-size: 30px;
+  font-size: 33px;
 }
-.cd-headline.clip span b{
-	text-transform: uppercase;
-}
+
 .cd-headline.clip .cd-words-wrapper {
   overflow: hidden;
   vertical-align: top;
