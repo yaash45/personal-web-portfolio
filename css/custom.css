@@ -16,6 +16,20 @@
     font-size: 17px;
 }
 
+.post-info a{
+    margin-left:17px;
+}
+
+.post-info span{
+    border: 1px solid rgb(195,174,121);
+    border-radius: 5pt;
+    padding-top: 9pt;
+    padding-bottom: 9pt;
+    padding-right: 14pt;
+    padding-left: 14pt;
+    color: rgb(195,174,121);
+}
+
 #social-media-links{
     margin-top: 35px;
 }
@@ -38,5 +52,15 @@ hr{
 
 #sendMessageButton:hover{
     background-color: rgb(195,174,121);
-    color: #3b4f60;
+    color: #ffffff;
+}
+
+#downloadCvButton:hover{
+    background-color: rgb(195,174,121);
+    color: #ffffff;
+}
+
+.seeProjectButton:hover{
+    background-color: rgb(195,174,121);
+    color: #ffffff;
 }
