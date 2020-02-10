@@ -30,6 +30,14 @@
     color: rgb(195,174,121);
 }
 
+#scroll-to-top{
+    background: rgb(195,174,121);
+}
+
+.fa {
+    color: #3b4f60;
+}
+
 #social-media-links{
     margin-top: 35px;
 }
