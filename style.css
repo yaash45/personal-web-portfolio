@@ -553,7 +553,8 @@ xclip
     font-size: 18px;
     font-family: 'Almarai', sans-serif;
     font-weight: 400;
-    margin: 0;
+    margin-bottom: 1cm;
+    margin-top: 1cm;
 }
 
 .section.lb .section-title p {
@@ -562,7 +563,8 @@ xclip
     font-size: 18px;
     font-family: 'Almarai', sans-serif;
     font-weight: 400;
-    margin: 0;
+    margin-bottom: 1cm;
+    margin-top: 1cm;
 }
 
 .section-title h3 {
