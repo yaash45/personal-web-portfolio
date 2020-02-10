@@ -38,8 +38,26 @@
     color: #3b4f60;
 }
 
-#social-media-links{
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+.social-media-links{
     margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.social-media-links ul{
+    list-style-type: none;
+}
+
+.social-media-links li{
+    margin-right: 10px;
+    display: inline;
 }
 
 hr{
