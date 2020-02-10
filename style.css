@@ -547,18 +547,27 @@ xclip
     margin-bottom: 30px;
 }
 
-.section-title p {
+.section.wb .section-title p {
     line-height: 33px;
-    color: rgb(195,174,121);
+    color: #3b4f60;
     font-size: 18px;
     font-family: 'Almarai', sans-serif;
-    font-weight: 800;
+    font-weight: 400;
+    margin: 0;
+}
+
+.section.lb .section-title p {
+    line-height: 33px;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: 'Almarai', sans-serif;
+    font-weight: 400;
     margin: 0;
 }
 
 .section-title h3 {
     color: rgb(195,174,121);
-    font-size: 50px;
+    font-size: 60px;
     font-family: 'Almarai', sans-serif;
     font-weight: 800;
     line-height: 62px;
@@ -668,8 +677,8 @@ xclip
 }
 
 .skills-inner-box hr{
-    margin-top:5px;
-    margin-bottom:10px;
+    margin-top:10px;
+    margin-bottom:20px;
     margin-left:10px;
     border-color: rgb(195,174,121);
 }
@@ -695,9 +704,9 @@ xclip
 }
 
 .skills-inner-box ul li{
-    color: rgb(195,174,121);
+    color: #ffffff;
     font-family: 'Heebo', sans-serif;
-    font-weight: 400;
+    font-weight: 500;
 	font-size: 17px;
     margin-left: 10px;
 }

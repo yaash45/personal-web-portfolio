@@ -37,6 +37,6 @@ hr{
 }
 
 #sendMessageButton:hover{
-    background-color: rgb(195,174,121); /* Green */
+    background-color: rgb(195,174,121);
     color: #3b4f60;
 }
