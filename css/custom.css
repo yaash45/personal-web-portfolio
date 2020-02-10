@@ -55,9 +55,17 @@ hr{
     color: #ffffff;
 }
 
+#downloadCvButton{
+    transition-duration: 0.2s;
+}
+
 #downloadCvButton:hover{
     background-color: rgb(195,174,121);
     color: #ffffff;
+}
+
+.seeProjectButton{
+    transition-duration: 0.2s;
 }
 
 .seeProjectButton:hover{
