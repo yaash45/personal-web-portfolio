@@ -2344,7 +2344,7 @@ select.mobile-device {
 .footer-distributed .footer-company-name {
     font-weight: 300;
     margin: 0 10px;
-    color: #666;
+    color: rgb(195,174,121);
     padding: 0;
 }
 
