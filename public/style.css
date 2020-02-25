@@ -668,14 +668,13 @@ xclip
     z-index: 0;
 }
 
-
-
 .skills-inner-box{
     border-radius: 15px;
 	padding: 25px;
 	background:#3b4f60;
     margin-bottom: 30px;
     border: 3px solid rgb(195,174,121);
+    height: 455px;
 }
 
 .skills-inner-box hr{
@@ -708,6 +707,22 @@ xclip
     color: rgb(195,174,121);
 }
 
+.skills-inner-box h4{
+    margin-left: 18px;
+    font-family: 'Heebo', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color:#3b4f60;
+    transition-duration: 0.2s;
+}
+
+.skills-inner-box h5{
+    margin-left: 18px;
+    font-size: 20px;
+    font-weight: 300;
+    color:#3b4f60;
+}
+
 .skills-inner-box ul li{
     color: #ffffff;
     font-family: 'Heebo', sans-serif;
@@ -723,6 +738,7 @@ xclip
 	background: #ffffff;
     margin-bottom: 30px;
     border: 3px solid rgb(195,174,121);
+    height: 936px;
 }
 
 .ser-icon{
@@ -787,6 +803,124 @@ xclip
 
 .employment-inner-box a h4:hover{
     color:rgb(195,174,121);
+}
+
+.projects-inner-box{
+    border-radius: 15px;
+	padding: 15px;
+	background: #ffffff;
+    margin-bottom: 30px;
+    border: 3px solid rgb(195,174,121);
+    height: 790px;
+}
+
+.projects-inner-box h2{
+    margin-top: 20px;
+    margin-left: 18px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 500;
+	font-size: 30px;
+    color: rgb(195,174,121);
+}
+
+.projects-inner-box h4{
+    margin-left: 18px;
+    font-family: 'Heebo', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color:#3b4f60;
+    transition-duration: 0.2s;
+}
+
+.projects-inner-box h5{
+    margin-left: 18px;
+    font-size: 20px;
+    font-weight: 300;
+    color:#3b4f60;
+}
+
+.projects-inner-box ul{
+    margin-left: 10px;
+}
+
+.projects-inner-box ul li{
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color:#3b4f60;
+    margin: 10px;
+    list-style-type: disc;
+}
+
+.projects-inner-box a{
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color:#3b4f60;
+    transition-duration: 0.2s;
+}
+
+.projects-inner-box a:hover{
+    color:rgb(195,174,121);
+}
+
+.projects-inner-box a h4:hover{
+    color:rgb(195,174,121);
+}
+
+.education-inner-box{
+    border-radius: 15px;
+	padding: 25px;
+	background:#3b4f60;
+    margin-bottom: 30px;
+    border: 3px solid rgb(195,174,121);
+}
+
+.education-inner-box hr{
+    margin-top:10px;
+    margin-bottom:20px;
+    margin-left:10px;
+    border-color: rgb(195,174,121);
+}
+
+.education-inner-box h2{
+    margin-left:10px;
+    margin-bottom: 10px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 500;
+	font-size: 30px;
+    color: rgb(195,174,121);
+}
+
+.education-inner-box h4{
+    margin-left: 10px;
+    font-family: 'Heebo', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+    transition-duration: 0.2s;
+}
+
+.education-inner-box h5{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.education-inner-box ul{
+    margin-left: 18px;
+}
+
+.education-inner-box ul li{
+    list-style-type: disc;
+    color: #ffffff;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+	font-size: 18px;
+    margin-left: 10px;
+    margin-bottom: 15px;
 }
 
 /*------------------------------------------------------------------
@@ -2151,7 +2285,7 @@ select.mobile-device {
 }
 
 .contact_form {
-    border: 5px solid rgb(195,174,121);
+    /* border: 3px solid rgb(195,174,121); */
     border-radius: 15px;
     /* box-shadow: 0 5px 14px rgba(0, 0, 0, 0.1); */
     background-color: #3b4f60;
@@ -2161,7 +2295,7 @@ select.mobile-device {
 .contact_form .form-control {
     background-color: #ffffff;
     margin-bottom: 30px;
-    border: 2px solid rgb(195,174,121);
+    border: 3px solid rgb(195,174,121);
     box-sizing: border-box;
     color: #3b4f60;
     font-size: 16px;
