@@ -30,6 +30,12 @@
     color: rgb(195,174,121);
 }
 
+.section-title img{
+    width: auto;
+    height: 70px;
+    max-width: 100%;
+}
+
 #scroll-to-top{
     background: rgb(195,174,121);
 }
