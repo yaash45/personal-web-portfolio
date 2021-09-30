@@ -1,454 +1,694 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Basic -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-<!-- Basic -->
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Mobile Metas -->
+    <meta
+      name="viewport"
+      content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
 
-<!-- Mobile Metas -->
-<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <!-- Site Metas -->
+    <title>Yaash Jain</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
 
-<!-- Site Metas -->
-<title>Yaash Jain</title>
-<meta name="keywords" content="">
-<meta name="description" content="">
-<meta name="author" content="">
+    <!-- Site Icons -->
+    <link
+      rel="shortcut icon"
+      href="images/yaash_favicon_white.png"
+      type="image/x-icon"
+    />
+    <link rel="apple-touch-icon" href="images/yaash_favicon_white.png" />
 
-<!-- Site Icons -->
-<link rel="shortcut icon" href="images/yaash_favicon_white.png" type="image/x-icon" />
-<link rel="apple-touch-icon" href="images/yaash_favicon_white.png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css" />
+    <script src="js/modernizr.js"></script>
+    <!-- Modernizr -->
+  </head>
 
-<!-- Bootstrap CSS -->
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<!-- Site CSS -->
-<link rel="stylesheet" href="style.css">
-<!-- Responsive CSS -->
-<link rel="stylesheet" href="css/responsive.css">
-<!-- Custom CSS -->
-<link rel="stylesheet" href="css/custom.css">
-<script src="js/modernizr.js"></script> <!-- Modernizr -->
-
-<!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-</head>
-
-<body id="page-top" class="politics_version">
-
+  <body id="page-top" class="politics_version">
     <!-- LOADER -->
     <div id="preloader">
-        <div id="main-ld">
-            <div id="loader"></div>
-        </div>
-    </div><!-- end loader -->
+      <div id="main-ld">
+        <div id="loader"></div>
+      </div>
+    </div>
+    <!-- end loader -->
     <!-- END LOADER -->
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-        <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">
-                <img class="img-fluid" src="images/yaash_logo_white.png" alt="" height="40" width="150" />
-            </a>
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
-                aria-label="Toggle navigation">
-                Menu
-                <i class="fa fa-bars"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav text-uppercase ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger active" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#employment">Employment</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+          <img
+            class="img-fluid"
+            src="images/yaash_logo_white.png"
+            alt=""
+            height="40"
+            width="150"
+          />
+        </a>
+        <button
+          class="navbar-toggler navbar-toggler-right"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav text-uppercase ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger active" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#employment"
+                >Employment</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#projects"
+                >Projects</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
 
-    <section id="home" class="main-banner parallaxie" style="background: url('uploads/main_frame.jpg')">
-        <div class="heading">
-            <img src="images/memicons/iconsforwebbi/Hi, I'm Yaash!.png" height="10%">
-            <p>Always inspired by the latest gadgets and apps,<br>I want to help advance and lead the industry of tech.
-            </p>
-            <h3 class="cd-headline clip is-full-width">
-                <span>I love </span>
-                <span class="cd-words-wrapper">
-                    <b class="is-visible">web development</b>
-                    <b>vegetarian food</b>
-                    <b>Toronto Raptors</b>
-                    <b>neutron stars</b>
-                </span>
-            </h3>
-        </div>
+    <section
+      id="home"
+      class="main-banner parallaxie"
+      style="background: url('uploads/main_frame.jpg')"
+    >
+      <div class="heading">
+        <img
+          src="images/memicons/iconsforwebbi/Hi, I'm Yaash!.png"
+          height="10%"
+        />
+        <p>
+          Always inspired by the latest gadgets and apps,<br />I want to help
+          advance and lead the industry of tech.
+        </p>
+        <h3 class="cd-headline clip is-full-width">
+          <span>I love </span>
+          <span class="cd-words-wrapper">
+            <b class="is-visible">web development</b>
+            <b>vegetarian food</b>
+            <b>Toronto Raptors</b>
+            <b>neutron stars</b>
+          </span>
+        </h3>
+      </div>
     </section>
 
     <div id="about" class="section wb">
-        <div class="container">
-            <div class="section-title text-left">
-                <img src="images/memicons/iconsforwebbi/about.png">
-            </div><!-- end title -->
-            <div class="row">
-                <div class="col-md-5">
-                    <div class="message-box">
-                        <p>Always inspired by the latest gadgets and apps, I want to help advance
-                            and lead the industry of tech. Merging innovative software and clean technology, my current
-                            co-op position at Aquatic Informatics embodies much of what drives me. As a versatile
-                            software developer, I interact with the massive server-side of their AQUARIUS Time-Series
-                            water data management system. Before diving into the Agile environment at Aquatic
-                            Informatics, I worked at a dynamic and growth-oriented startup in the FinTech industry.
-                            On Canalyst’s software engineering team, I excelled with unfamiliar
-                            technologies and improved tools for equity research workflow efficiency. Beyond modern
-                            web-based applications, I love the Toronto Raptors, vegetarian food, and a good,
-                            thought-provoking movie.
-                        </p>
-                        <a href="https://drive.google.com/open?id=14HS0oMnB8KhV__rwf1_JRqTWX4k2ClaR"
-                            target="_blank"><span id="downloadCvButton">Download CV</span></a>
-                    </div><!-- end messagebox -->
-                </div><!-- end col -->
-                <div class="col-md-1">
-                </div>
-                <div class="col-md-6">
-                    <div class="right-box-pro wow fadeIn">
-                        <img src="uploads/about_04.jpg" alt="" class="img-fluid img-rounded">
-                    </div><!-- end media -->
-                </div><!-- end col -->
-            </div><!-- end row -->
-        </div><!-- end container -->
-    </div><!-- end section -->
+      <div class="container">
+        <div class="section-title text-left">
+          <img src="images/memicons/iconsforwebbi/about.png" />
+        </div>
+        <!-- end title -->
+        <div class="row">
+          <div class="col-md-5">
+            <div class="message-box">
+              <div class="about-writeup">
+                <p>
+                  As a recent Computer Engineering graduate from the University
+                  of British Columbia, I have experience in Modern Web
+                  Applications, Software Engineering, Distributed Systems,
+                  Databases, and Computer Vision.
+                </p>
+                <p>
+                  Though the UBC Engineering Co-op Program, I gained industry
+                  experience in software development, with companies ranging
+                  from a fast-paced Fintech startup to a major animation/VFX
+                  studio.
+                </p>
+                <p>
+                  With my sharp technical background and communication skills, I
+                  am prepared for the challenges of the modern technology
+                  landscape, focusing on backend and full-stack development.
+                </p>
+              </div>
+              <div class="download-resume">
+                <a
+                  href="https://drive.google.com/open?id=14HS0oMnB8KhV__rwf1_JRqTWX4k2ClaR"
+                  target="_blank"
+                  ><span id="downloadCvButton">Download CV</span></a
+                >
+              </div>
+            </div>
+            <!-- end messagebox -->
+          </div>
+          <!-- end col -->
+          <div class="col-md-1"></div>
+          <div class="col-md-6">
+            <div class="right-box-pro wow fadeIn">
+              <img
+                src="uploads/about_04.jpg"
+                alt=""
+                class="img-fluid img-rounded"
+              />
+            </div>
+            <!-- end media -->
+          </div>
+          <!-- end col -->
+        </div>
+        <!-- end row -->
+      </div>
+      <!-- end container -->
+    </div>
+    <!-- end section -->
 
     <div id="employment" class="section lb">
-        <div class="container">
-            <div class="section-title text-left">
-                <img src="images/memicons/iconsforwebbi/Employment.png">
-                <p class="skills-summary">As part of the Engineering Co-op Program at the University of British
-                    Columbia, I have experienced the diversity of the software industry firsthand. Throughout each work
-                    term, I continuously aim to elevate my software engineering skills to industry standards.
-                </p>
-            </div><!-- end title -->
+      <div class="container">
+        <div class="section-title text-left">
+          <img src="images/memicons/iconsforwebbi/Employment.png" />
+          <p class="skills-summary">
+            As part of the Engineering Co-op Program at the University of
+            British Columbia, I have experienced the diversity of the software
+            industry firsthand. Throughout each work term, I continuously aim to
+            elevate my software engineering skills to industry standards.
+          </p>
+        </div>
+        <!-- end title -->
 
-            <div class="row">
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                    <div class="employment-inner-box">
-                        <div class="ser-icon center">
-                            <img src="images/memicons/iconsforwebbi/Aquatic Informatics.png" height="70px" width="auto">
-                        </div>
-                        <h2>Software Developer Co-op</h2>
-                        <a href="https://aquaticinformatics.com/" target="_blank">
-                            <h4>Aquatic Informatics Inc.</h4>
-                        </a>
-                        <h5>January 2020 - April 2020</h5>
-                        <hr>
-                        <ul class="skills-list">
-                            <li class="list-item">Works in team of 6 on server-side of<a
-                                    href="https://aquaticinformatics.com/products/aquarius/aquarius-time-series/"
-                                    target="_blank">AQUARIUS Time-Series</a>, a water data management tool used by
-                                hydrologists and geological surveys</li>
-                            <li class="list-item">Writes .NET (C#) back-end code for server logic, unit tests,
-                                integration tests, and PowerShell Cmdlets for PostgreSQL database</li>
-                            <li class="list-item">Maintains Docker scripts and infrastructure to achieve SaaS compliance
-                                of the product, and works with advanced Git, PowerShell scripts, and Hyper-V virtual
-                                machines</li>
-                            <li class="list-item">Collaborates in Scrum environment using JIRA, GitHub, TeamCity,
-                                Trello, and GSuite</li>
-                        </ul>
-                    </div>
-                </div><!-- end col -->
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                    <div class="employment-inner-box">
-                        <div class="ser-icon center">
-                            <img src="images/memicons/iconsforwebbi/Canalyst.png" height="70px" width="auto">
-                        </div>
-                        <h2>Software Engineering Co-op</h2>
-                        <a href="https://canalyst.com/" target="_blank">
-                            <h4>Canalyst</h4>
-                        </a>
-                        <h5>May 2019 - December 2019</h5>
-                        <hr>
-                        <ul class="skills-list">
-                            <li class="list-item">Built .NET Equity Research tools for Microsoft
-                                Excel add-in using C# on Microsoft Visual Studio</li>
-                            <li class="list-item">Led refactoring project of integral research tool to improve runtime
-                                performance by more than 6x, and created a new software feature to enhance financial
-                                model quality</li>
-                            <li class="list-item">Operated in fast-paced FinTech start-up with Product Management and
-                                Equity Research Teams, with 75+ accepted merge requests, 70+ closed issues, and 1000+
-                                overall contributions</li>
-                            <li class="list-item">Adapted quickly to technology stack and collaborated with 7 members in
-                                Agile fashion, demonstrating diligent version control, code review, testing, and SDLC
-                                principles</li>
-                            <li class="list-item">Gained experience with Python, Bash, YAML, AWS, GitLab CI, and
-                                PostgreSQL</li>
-                            <li class="list-item">Indulged in multi-dimensional learning of finance and technology
-                                through weekly readings and discussions on distributed systems, machine learning, and
-                                finance</li>
-                        </ul>
-                    </div>
-                </div><!-- end col -->
-            </div><!-- end row -->
-        </div><!-- end container -->
-    </div><!-- end section -->
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <div class="employment-inner-box">
+              <div class="ser-icon center">
+                <img
+                  src="images/sony-pictures-imageworks-logo.png"
+                  height="130px"
+                  width="auto"
+                />
+              </div>
+              <h2>Developer Co-op</h2>
+              <a
+                href="https://www.linkedin.com/company/sony-pictures-imageworks/"
+                target="_blank"
+              >
+                <h4>Sony Pictures Imageworks (Remote)</h4>
+              </a>
+              <h5>May 2020 - Jan 2021</h5>
+              <hr />
+              <ul class="skills-list">
+                <li class="list-item">
+                  Created data pipelines using Python, Prometheus, and Grafana
+                  to automate animation/VFX tool monitoring
+                </li>
+                <li class="list-item">
+                  Led project to Dockerize distributed server, minimizing crash
+                  frequency and reducing downtime by 80%
+                </li>
+                <li class="list-item">
+                  Organized workshop to help teams build, test, and package
+                  Python code rapidly using pre-built CI/CD pipelines
+                </li>
+                <li class="list-item">
+                  Resolved Java server issues and Python UI bugs on the OpenCue
+                  open-source system, reducing software backlogs
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <div class="employment-inner-box">
+              <div class="ser-icon center">
+                <img
+                  src="images/memicons/iconsforwebbi/Aquatic Informatics.png"
+                  height="70px"
+                  width="auto"
+                />
+              </div>
+              <h2>Software Developer Co-op</h2>
+              <a
+                href="https://www.linkedin.com/company/aquatic-informatics/"
+                target="_blank"
+              >
+                <h4>Aquatic Informatics Inc. (Vancouver, BC)</h4>
+              </a>
+              <h5>Jan 2020 - Apr 2020</h5>
+              <hr />
+              <ul class="skills-list">
+                <li class="list-item">
+                  Developed backend REST APIs in C# for the AQUARIUS water data
+                  management platform in an Agile team of 6
+                </li>
+                <li class="list-item">
+                  Debugged CI/CD scripts and the Dockerfile for the AQUARIUS
+                  .NET server to modernize deployment strategies
+                </li>
+                <li class="list-item">
+                  Collaborated on software regression testing before product
+                  releases to ensure high-quality, bug-free code
+                </li>
+                <li class="list-item">
+                  Coordinated in Scrum environment using JIRA, GitHub, TeamCity,
+                  Trello, and GSuite
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- end col -->
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <div class="employment-inner-box">
+              <div class="ser-icon center">
+                <img
+                  src="images/memicons/iconsforwebbi/Canalyst.png"
+                  height="70px"
+                  width="auto"
+                />
+              </div>
+              <h2>Software Engineering Co-op</h2>
+              <a
+                href="https://www.linkedin.com/company/canalyst/"
+                target="_blank"
+              >
+                <h4>Canalyst (Vancouver, BC)</h4>
+              </a>
+              <h5>May 2019 - Dec 2019</h5>
+              <hr />
+              <ul class="skills-list">
+                <li class="list-item">
+                  Developed Equity Research software in a Fintech startup with
+                  75+ accepted merge requests and 70+ closed issues
+                </li>
+                <li class="list-item">
+                  Optimized C# application to reduce runtime from 2 minutes to
+                  15 seconds by addressing performance bottlenecks
+                </li>
+                <li class="list-item">
+                  Partnered with Product and Equity Research teams to build
+                  internal MS Excel Add-in tool in an Agile team of 6
+                </li>
+                <li class="list-item">
+                  Displayed strong communication and problem-solving skills when
+                  resolving time-sensitive client-reported issues
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- end col -->
+        </div>
+        <!-- end row -->
+      </div>
+      <!-- end container -->
+    </div>
+    <!-- end section -->
 
     <div id="skills" class="section wb">
-        <div class="container">
-            <div class="section-title text-left">
-                <img src="images/memicons/iconsforwebbi/Skills.png">
-                <p class="skills-summary">I am very passionate about expanding my skill set. Through my time as a
-                    Computer Engineering student at UBC and my internships, I have had the opportunity to work with and
-                    enhance my skills. Here is a list of some of my skills, tools and courses.
-                </p>
-            </div><!-- end title -->
+      <div class="container">
+        <div class="section-title text-left">
+          <img src="images/memicons/iconsforwebbi/Skills.png" />
+          <p class="skills-summary">
+            I am very passionate about expanding my skill set. Through my time
+            as a Computer Engineering student at UBC and my internships, I have
+            had the opportunity to work with and enhance my skills. Here is a
+            list of some of my skills, tools and courses.
+          </p>
+        </div>
+        <!-- end title -->
 
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="skills-inner-box">
-                        <div class="ser-icon center">
-                            <img src="images/memicons/iconsforwebbi/macbook.png" height="70px" width="auto">
-                        </div>
-                        <h2>Web development</h2>
-                        <hr>
-                        <ul class="skills-list">
-                            <li class="list-item"><a>Node.js</a></li>
-                            <li class="list-item"><a>AWS</a></li>
-                            <li class="list-item"><a>PostgreSQL</a></li>
-                            <li class="list-item"><a>MongoDB</a></li>
-                            <li class="list-item"><a>Docker</a></li>
-                        </ul>
-                    </div>
-                </div><!-- end col -->
-                <div class="col-md-4">
-                    <div class="skills-inner-box">
-                        <div class="ser-icon center">
-                            <img src="images/memicons/iconsforwebbi/terminal.png" height="70px" width="auto">
-                        </div>
-                        <h2>Tools and Frameworks</h2>
-                        <hr>
-                        <ul class="skills-list">
-                            <li class="list-item"><a>Git</a></li>
-                            <li class="list-item"><a>Android Studio</a></li>
-                            <li class="list-item"><a>VS Code</a></li>
-                            <li class="list-item"><a>Bash</a></li>
-                            <li class="list-item"><a>PowerShell</a></li>
-                        </ul>
-                    </div>
-                </div><!-- end col -->
-                <div class="col-md-4">
-                    <div class="skills-inner-box">
-                        <div class="ser-icon center">
-                            <img src="images/memicons/iconsforwebbi/book.png" height="70px" width="auto">
-                        </div>
-                        <h2>Important Courses</h2>
-                        <hr>
-                        <ul class="skills-list">
-                            <li class="list-item"><a>Software Engineering</a></li>
-                            <li class="list-item"><a>Digital Systems Design</a></li>
-                            <li class="list-item"><a>Algorithms and Data Structures</a></li>
-                            <li class="list-item"><a>Engineering Economics</a></li>
-                            <li class="list-item"><a>Intro to Statistics</a></li>
-                        </ul>
-                    </div>
-                </div><!-- end col -->
-            </div><!-- end row -->
-        </div><!-- end container -->
-    </div><!-- end section -->
+        <div class="row">
+          <div class="col-md-4">
+            <div class="skills-inner-box">
+              <div class="ser-icon center">
+                <img
+                  src="images/memicons/iconsforwebbi/macbook.png"
+                  height="70px"
+                  width="auto"
+                />
+              </div>
+              <h2>Web development</h2>
+              <hr />
+              <ul class="skills-list">
+                <li class="list-item"><a>Node.js</a></li>
+                <li class="list-item"><a>AWS</a></li>
+                <li class="list-item"><a>PostgreSQL</a></li>
+                <li class="list-item"><a>MongoDB</a></li>
+                <li class="list-item"><a>Docker</a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- end col -->
+          <div class="col-md-4">
+            <div class="skills-inner-box">
+              <div class="ser-icon center">
+                <img
+                  src="images/memicons/iconsforwebbi/terminal.png"
+                  height="70px"
+                  width="auto"
+                />
+              </div>
+              <h2>Tools and Frameworks</h2>
+              <hr />
+              <ul class="skills-list">
+                <li class="list-item"><a>Git</a></li>
+                <li class="list-item"><a>Android Studio</a></li>
+                <li class="list-item"><a>VS Code</a></li>
+                <li class="list-item"><a>Bash</a></li>
+                <li class="list-item"><a>PowerShell</a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- end col -->
+          <div class="col-md-4">
+            <div class="skills-inner-box">
+              <div class="ser-icon center">
+                <img
+                  src="images/memicons/iconsforwebbi/book.png"
+                  height="70px"
+                  width="auto"
+                />
+              </div>
+              <h2>Important Courses</h2>
+              <hr />
+              <ul class="skills-list">
+                <li class="list-item"><a>Software Engineering</a></li>
+                <li class="list-item"><a>Digital Systems Design</a></li>
+                <li class="list-item"><a>Algorithms and Data Structures</a></li>
+                <li class="list-item"><a>Engineering Economics</a></li>
+                <li class="list-item"><a>Intro to Statistics</a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- end col -->
+        </div>
+        <!-- end row -->
+      </div>
+      <!-- end container -->
+    </div>
+    <!-- end section -->
 
     <div id="projects" class="section lb">
-        <div class="container">
-            <div class="section-title text-left">
-                <img src="images/memicons/iconsforwebbi/Projects.png">
-                <p>Applying my knowledge to build technical projects is something I enjoy doing. Right from the
-                    conception of the idea, to selecting tools, and executing on the design, I love applying teccnical
-                    creativity. Here are some of the projects I have worked on.
-                </p>
-            </div><!-- end title -->
-
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="projects-inner-box">
-                        <div class="post-info">
-                            <div class="ser-icon center">
-                                <img src="images/memicons/iconsforwebbi/car.png" height="70px" width="auto">
-                            </div>
-                            <h2>QuickPark</h2>
-                            <h4>Smart parking management system</h4>
-                            <h5>Jan 2019 – Feb 2019</h5>
-                            <hr>
-                            <ul>
-                                <li>Created Node.js server on AWS EC2 for parking system with automatic license plate
-                                    recognition</li>
-                                <li>Designed RESTful APIs to communicate with NoSQL database (MongoDb) storing JSON data
-                                </li>
-                                <li>Served complex system consisting of vehicle arrival detection and custom designed
-                                    FPGA graphic output using a Wi-Fi module</li>
-                            </ul>
-                            <div class="row" style="margin-bottom:2.6cm;"></div>
-                            <a href="https://drive.google.com/file/d/1Jn-GBltZdgs_WkhDjNMUTqazL1-vPGBN/view"
-                                target="_blank"><span class="seeProjectButton">See project</span></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="projects-inner-box">
-                        <div class="post-info">
-                            <div class="ser-icon center">
-                                <img src="images/memicons/iconsforwebbi/phone.png" height="90px" width="auto">
-                            </div>
-                            <h2>Conpeto</h2>
-                            <h4>Group Finding Android App (Back-end)</h4>
-                            <h5>Sep 2018 – Nov 2018</h5>
-                            <hr>
-                            <ul>
-                                <li>Implemented OAuth Facebook authentication server using Passport.js library</li>
-                                <li>Tested server algorithms using Mocha Chai testing framework</li>
-                                <li>Set up RESTful Express app with NoSQL database (MongoDb) using Heroku, Travis CI,
-                                    and Git</li>
-                                <li>Deepened understanding of UML, RESTful APIs, code review, testing, and continuous
-                                    integration</li>
-                            </ul>
-                            <div class="row" style="margin-bottom:1.5cm;"></div>
-                            <a href="https://drive.google.com/open?id=1Uiw8ZDGrDNtu7zBbH6dUHKrTqaib7QV6ExSFRIW4QhQ"
-                                target="_blank"><span class="seeProjectButton">See project</span></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="projects-inner-box">
-                        <div class="post-info">
-                            <div class="ser-icon center">
-                                <img src="images/memicons/iconsforwebbi/desktop.png" height="70px" width="auto">
-                            </div>
-                            <h2>Website for RS Fragrances</h2>
-                            <h4>Front-end design</h4>
-                            <h5>May 2018 – Jul 2018</h5>
-                            <hr>
-                            <ul>
-                                <li>Used WebStorm IDE to construct portfolio-style website for essential oils company
-                                </li>
-                                <li>Personalized a template to create aesthetically pleasing website using HTML/CSS</li>
-                                <li>Incorporated email contact form using PHP and hosted website on Linux server using
-                                    GoDaddy</li>
-                            </ul>
-                            <div class="row" style="margin-bottom:2cm;"></div>
-                            <a href="http://www.rsfragrances.in/"><span class="seeProjectButton" target="_blank">See
-                                    project</span></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="projects-inner-box">
-                        <div class="post-info">
-                            <div class="ser-icon center">
-                                <img src="images/memicons/iconsforwebbi/phone.png" height="90px" width="auto">
-                            </div>
-                            <h2>Motion-Controlled Music Box</h2>
-                            <h4>Android Application</h4>
-                            <h5>Mar 2018 – Apr 2018</h5>
-                            <hr>
-                            <ul>
-                                <li>Developed Android app for music box consisting of Arduino, Raspberry Pi, and
-                                    Leap-Motion</li>
-                                <li>Built app on Android Studio using Java and designed front-end and back-end
-                                    interfaces</li>
-                                <li>Executed Node and Python scripts on Linux server using Bash commands sent through
-                                    SSH</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="container">
+        <div class="section-title text-left">
+          <img src="images/memicons/iconsforwebbi/Projects.png" />
+          <p>
+            Applying my knowledge to build technical projects is something I
+            enjoy doing. Right from the conception of the idea, to selecting
+            tools, and executing on the design, I love applying teccnical
+            creativity. Here are some of the projects I have worked on.
+          </p>
         </div>
+        <!-- end title -->
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="projects-inner-box">
+              <div class="post-info">
+                <div class="ser-icon center">
+                  <img
+                    src="images/memicons/iconsforwebbi/car.png"
+                    height="70px"
+                    width="auto"
+                  />
+                </div>
+                <h2>QuickPark</h2>
+                <h4>Smart parking management system</h4>
+                <h5>Jan 2019 – Feb 2019</h5>
+                <hr />
+                <ul>
+                  <li>
+                    Created Node.js server on AWS EC2 for parking system with
+                    automatic license plate recognition
+                  </li>
+                  <li>
+                    Designed RESTful APIs to communicate with NoSQL database
+                    (MongoDb) storing JSON data
+                  </li>
+                  <li>
+                    Served complex system consisting of vehicle arrival
+                    detection and custom designed FPGA graphic output using a
+                    Wi-Fi module
+                  </li>
+                </ul>
+                <div class="row" style="margin-bottom: 2.6cm"></div>
+                <a
+                  href="https://drive.google.com/file/d/1Jn-GBltZdgs_WkhDjNMUTqazL1-vPGBN/view"
+                  target="_blank"
+                  ><span class="seeProjectButton">See project</span></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="projects-inner-box">
+              <div class="post-info">
+                <div class="ser-icon center">
+                  <img
+                    src="images/memicons/iconsforwebbi/phone.png"
+                    height="90px"
+                    width="auto"
+                  />
+                </div>
+                <h2>Conpeto</h2>
+                <h4>Group Finding Android App (Back-end)</h4>
+                <h5>Sep 2018 – Nov 2018</h5>
+                <hr />
+                <ul>
+                  <li>
+                    Implemented OAuth Facebook authentication server using
+                    Passport.js library
+                  </li>
+                  <li>
+                    Tested server algorithms using Mocha Chai testing framework
+                  </li>
+                  <li>
+                    Set up RESTful Express app with NoSQL database (MongoDb)
+                    using Heroku, Travis CI, and Git
+                  </li>
+                  <li>
+                    Deepened understanding of UML, RESTful APIs, code review,
+                    testing, and continuous integration
+                  </li>
+                </ul>
+                <div class="row" style="margin-bottom: 1.5cm"></div>
+                <a
+                  href="https://drive.google.com/open?id=1Uiw8ZDGrDNtu7zBbH6dUHKrTqaib7QV6ExSFRIW4QhQ"
+                  target="_blank"
+                  ><span class="seeProjectButton">See project</span></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="projects-inner-box">
+              <div class="post-info">
+                <div class="ser-icon center">
+                  <img
+                    src="images/memicons/iconsforwebbi/desktop.png"
+                    height="70px"
+                    width="auto"
+                  />
+                </div>
+                <h2>Website for RS Fragrances</h2>
+                <h4>Front-end design</h4>
+                <h5>May 2018 – Jul 2018</h5>
+                <hr />
+                <ul>
+                  <li>
+                    Used WebStorm IDE to construct portfolio-style website for
+                    essential oils company
+                  </li>
+                  <li>
+                    Personalized a template to create aesthetically pleasing
+                    website using HTML/CSS
+                  </li>
+                  <li>
+                    Incorporated email contact form using PHP and hosted website
+                    on Linux server using GoDaddy
+                  </li>
+                </ul>
+                <div class="row" style="margin-bottom: 2cm"></div>
+                <a href="http://www.rsfragrances.in/"
+                  ><span class="seeProjectButton" target="_blank"
+                    >See project</span
+                  ></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="projects-inner-box">
+              <div class="post-info">
+                <div class="ser-icon center">
+                  <img
+                    src="images/memicons/iconsforwebbi/phone.png"
+                    height="90px"
+                    width="auto"
+                  />
+                </div>
+                <h2>Motion-Controlled Music Box</h2>
+                <h4>Android Application</h4>
+                <h5>Mar 2018 – Apr 2018</h5>
+                <hr />
+                <ul>
+                  <li>
+                    Developed Android app for music box consisting of Arduino,
+                    Raspberry Pi, and Leap-Motion
+                  </li>
+                  <li>
+                    Built app on Android Studio using Java and designed
+                    front-end and back-end interfaces
+                  </li>
+                  <li>
+                    Executed Node and Python scripts on Linux server using Bash
+                    commands sent through SSH
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div id="projects" class="section wb">
-        <div class="container">
-            <div class="section-title text-left">
-                <img src="images/memicons/iconsforwebbi/Education.png">
-                <p>My avid interest in learning about and advancing the world of technology brought me from the
-                    beautiful hilly town of Ootacamund in India, to beautiful British Columbia. I came to Vancouver to
-                    pursue my Bachelor's degree and here is a summary of my ongoing education here.
-                </p>
-            </div><!-- end title -->
-            <div class="row">
-                <div class="col-md-9">
-                    <div class="education-inner-box">
-                        <h2>University of British Columbia</h2>
-                        <hr>
-                        <h4>Bachelor of Applied Science - Computer Engineering</h4>
-                        <h5>Expected graduation: May 2021</h5>
-                        <ul>
-                            <li class="list-item"><a>Key Courses: Engineering, Algorithms and Data Structures, Digital
-                                    Systems Design, Engineering Economics, Statistics</a></li>
-                            <li class="list-item"><a>Cumulative Average: 81%</a></li>
-                            <li class="list-item"><a>Dean's Honour List: May 2017, May 2019</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+      <div class="container">
+        <div class="section-title text-left">
+          <img src="images/memicons/iconsforwebbi/Education.png" />
+          <p>
+            My avid interest in learning about and advancing the world of
+            technology brought me from the beautiful hilly town of Ootacamund in
+            India, to beautiful British Columbia. I came to Vancouver to pursue
+            my Bachelor's degree and here is a summary of my ongoing education
+            here.
+          </p>
         </div>
+        <!-- end title -->
+        <div class="row">
+          <div class="col-md-9">
+            <div class="education-inner-box">
+              <h2>University of British Columbia</h2>
+              <hr />
+              <h4>Bachelor of Applied Science - Computer Engineering</h4>
+              <h5>Expected graduation: May 2021</h5>
+              <ul>
+                <li class="list-item">
+                  <a
+                    >Key Courses: Engineering, Algorithms and Data Structures,
+                    Digital Systems Design, Engineering Economics, Statistics</a
+                  >
+                </li>
+                <li class="list-item"><a>Cumulative Average: 81%</a></li>
+                <li class="list-item">
+                  <a>Dean's Honour List: May 2017, May 2019</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div id="contact" class="section lb">
-        <div class="container">
-            <!-- <div class="bottom-note">
+      <div class="container">
+        <!-- <div class="bottom-note">
                 <h1>Thank you for reading my portfolio. Feel free to reach out to me on LinkedIn and follow me on
                     Twitter!</h1>
             </div> -->
 
-            <div class="row">
-                <div class="bottom-logo">
-                    <img src="images/yaash_logo_white.png" height="100px" width="auto">
-                </div>
-            </div>
-            <div class="row">
-                <div class="social-media-links">
-                    <ul>
-                        <li><a href="https://www.linkedin.com/in/yaashjain/" target="_blank"><img
-                                    src="images/memicons/iconsforwebbi/linkedin.png" height="45px" width="auto;"></a>
-                        </li>
-                        <li><a href="https://twitter.com/yaash_jain" target="_blank"><img src="images/twitter.svg"
-                                    height="45px" width="auto;"></a></li>
-                        <li><a href="https://github.com/yaash45" target="_blank"><img src="images/memicons/iconsforwebbi/github.png"
-                                    height="45px" width="auto;"></a></li>
-                        <li><a href="https://www.hackerrank.com/yaash45" target="_blank"><img src="images/memicons/iconsforwebbi/hackerrank.png"
-                            height="45px" width="auto;"></a></li>
-                    </ul>
-                </div>
-            </div><!-- end row -->
-        </div><!-- end container -->
-    </div><!-- end section -->
+        <div class="row">
+          <div class="bottom-logo">
+            <img
+              src="images/yaash_logo_white.png"
+              height="100px"
+              width="auto"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="social-media-links">
+            <ul>
+              <li>
+                <a href="https://www.linkedin.com/in/yaashjain/" target="_blank"
+                  ><img
+                    src="images/memicons/iconsforwebbi/linkedin.png"
+                    height="45px"
+                    width="auto;"
+                /></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/yaash_jain" target="_blank"
+                  ><img src="images/twitter.svg" height="45px" width="auto;"
+                /></a>
+              </li>
+              <li>
+                <a href="https://github.com/yaash45" target="_blank"
+                  ><img
+                    src="images/memicons/iconsforwebbi/github.png"
+                    height="45px"
+                    width="auto;"
+                /></a>
+              </li>
+              <li>
+                <a href="https://www.hackerrank.com/yaash45" target="_blank"
+                  ><img
+                    src="images/memicons/iconsforwebbi/hackerrank.png"
+                    height="45px"
+                    width="auto;"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- end row -->
+      </div>
+      <!-- end container -->
+    </div>
+    <!-- end section -->
 
     <div class="copyrights">
-        <div class="container">
-            <div class="footer-distributed center">
-                <div class="footer-left">
-                    <p class="footer-company-name">All Rights Reserved. &copy; 2019 | Built by <a>Yaash Jain</a> |
-                        Designed
-                        by
-                        <a href="https://www.linkedin.com/in/emilywong258/" target="_blank">Emily Wong</a></p>
-                </div>
-            </div>
-        </div><!-- end container -->
-    </div><!-- end copyrights -->
+      <div class="container">
+        <div class="footer-distributed center">
+          <div class="footer-left">
+            <p class="footer-company-name">
+              All Rights Reserved. &copy; 2019 | Built by <a>Yaash Jain</a> |
+              Designed by
+              <a
+                href="https://www.linkedin.com/in/emilywong258/"
+                target="_blank"
+                >Emily Wong</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- end container -->
+    </div>
+    <!-- end copyrights -->
 
-    <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+    <a href="#" id="scroll-to-top" class="dmtop global-radius"
+      ><i class="fa fa-angle-up"></i
+    ></a>
 
     <!-- ALL JS FILES -->
     <script src="js/all.js"></script>
@@ -473,7 +713,5 @@
 
     <!-- Initialize Firebase -->
     <script src="/__/firebase/init.js"></script>
-
-</body>
-
+  </body>
 </html>
