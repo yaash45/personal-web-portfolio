@@ -5,10 +5,9 @@
 .message-box span {
   border: 1px solid rgb(195, 174, 121);
   border-radius: 5pt;
-  padding-top: 9pt;
-  padding-bottom: 9pt;
-  padding-right: 14pt;
-  padding-left: 14pt;
+  padding-top: 3pt;
+  padding-bottom: 3pt;
+  text-align-last: center;
   color: rgb(195, 174, 121);
 }
 
@@ -136,4 +135,8 @@ hr {
   font-weight: 400;
   font-size: 20px;
   color: rgb(195, 174, 121);
+}
+
+.section-title {
+  margin-bottom: 50px;
 }
