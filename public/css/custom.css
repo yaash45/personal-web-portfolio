@@ -39,7 +39,7 @@
 
 .section-title img {
   width: auto;
-  height: 70px;
+  height: 50px;
   max-width: 100%;
 }
 
@@ -110,6 +110,7 @@ hr {
 }
 
 #downloadCvButton {
+  padding: 9px;
   transition-duration: 0.2s;
 }
 
@@ -149,6 +150,10 @@ hr {
 
 .dotted {
   list-style-type: disc;
+  list-style-position: inside;
+}
+
+.list-style-inside {
   list-style-position: inside;
 }
 
